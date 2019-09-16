@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Jogo da Velha</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<h1> Jogo da Velha </h1>
+	<h2 id="jogador">Vez do jogador 1</h2>
+	<div class="divisoria">
+		<table class="tabela">
+		<tr>
+			<th onclick="marca('l0c0')">
+				<p id="00"></p>		
+			</th>
+			<th onclick="marca('l0c1')">
+				<p id="01"></p>		
+			</th>
+			<th onclick="marca('l0c2')">
+				<p id="02"></p>	
+			</th>
+		</tr>
+		<tr>
+			<th onclick="marca('l1c0')">
+				<p id="10"></p>
+			</th>
+			<th onclick="marca('l1c1')">
+				<p id="11"></p>
+			</th>
+			<th onclick="marca('l1c2')">
+				<p id="12"></p>
+			</th>
+		</tr>
+		<tr>
+			<th onclick="marca('l2c0')">
+				<p id="20"></p>
+			</th>
+			<th onclick="marca('l2c1')">
+				<p id="21"></p>
+			</th>
+			<th onclick="marca('l2c2')"> 
+				<p id="22"></p>
+			</th>
+		</tr>
+		
+		
+		</table>
+	</div>
+
+	<p id="vencedor"></p>
+
+
+
+</body>
+
+
+</html>
