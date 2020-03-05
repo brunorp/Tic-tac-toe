@@ -1,0 +1,37 @@
+th {
+width:100px; 
+height:100px;
+border:2px solid black;
+cursor:pointer;
+}
+
+.tabela{
+border:2px solid black;
+}
+
+p{
+font-size:30px;
+}
+
+h1{
+text-align: center;
+}
+
+h2{
+text-align: center;
+}
+
+body{
+width: 100%;
+background-color:lightblue;
+}
+
+.divisoria{
+	margin-left:41%;
+	margin-right:41%;
+	background-color:lightblue;
+}
+
+#vencedor {
+text-align: center;
+}
